@@ -1,0 +1,18 @@
+var i = 2;
+var item = [];
+for(var j = 0 ; j < 13 ; j++){
+    
+
+    item[j] = document.getElementById("DataGrid1__ctl" + i + "_JS1"); 
+    if(j == 12) {
+        item[j].options[2].selected = true;
+        break;
+    }
+    for(var z = 0;z< item[j].options.length;z++){
+        if(item[j].options[z].value == "A"){
+            item[j].options[z].selected = true;
+        }
+    }
+   
+    i++;
+}
