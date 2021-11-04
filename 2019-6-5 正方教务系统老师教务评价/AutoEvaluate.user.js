@@ -4,7 +4,6 @@ var item = [];
 var saveButton;
 for(var j = 0 ; j < 13 ; j++){
     
- 
     item[j] = document.getElementById("DataGrid1__ctl" + i + "_JS1"); 
   
     if(j == 12) {
